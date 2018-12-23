@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>グラブルクイズ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="open">
+     Check Answer
+    </div>
+    
+    <div id="mask" class="hidden"></div>
+    
+    <div id="modal" class="hidden">
+        <p id="result">正解 or 不正解</p>
+        <p id="ans">答えはこちら</p>
+        <p id="score">正解数/問題数</p>
+        <div id="close">
+            next quiz
+        </div>
+    </div>
+    
+    <div id="quizArea">
+        <p id="quiz">ここにクイズが表示されます。</p>
+    </div>
+    
+    <div id="ansArea">
+        <ul>
+            <li id="select1" class="select">選択肢１</li>
+            <li id="select2" class="select">選択肢２</li>
+            <li id="select3" class="select">選択肢３</li>
+            <li id="select4" class="select">選択肢４</li>
+        </ul>
+    </div>
+    <div id="tips">
+        <p>Tips:全10問出題されます。答えを選択し、一番上の「Check Answer」を押してください。</p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

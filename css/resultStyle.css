@@ -1,0 +1,29 @@
+body{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Verdana, sans-serif;
+    }
+    #result{
+        background-color: rgba(0,0,255,0.4);
+        width: 300px;
+        padding: 20px;
+        border-radius: 4px;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transition: .8s;
+    }
+    #score{
+        text-align: center;
+    }
+    #again{
+        cursor: pointer;
+        width: 200px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 40px;
+        margin: 15px auto 0;
+    }
